@@ -264,7 +264,7 @@ function toNumber(value, def) {
  */
 function getCube(num) {
   // throw new Error("Not implemented");
-  return num * num * num;
+  return num ** 3;
 }
 
 /**
@@ -438,7 +438,8 @@ function toPrecision(number, precision) {
  */
 function getNumberValue(number) {
   // throw new Error("Not implemented");
-  return number;
+  console.log(number.valueOf());
+  return number.valueOf();
 }
 
 /**
@@ -488,8 +489,7 @@ function isInteger(number) {
  * 'abcdefgh'      => NaN
  */
 function getFloatOnString(str) {
-  // throw new Error("Not implemented");
-  return parseFloat(str);
+  return Number.parseFloat(str);
 }
 
 /**
@@ -508,7 +508,7 @@ function getFloatOnString(str) {
  */
 function getIntegerOnString(str, base) {
   // throw new Error("Not implemented");
-  return parseInt(str, base);
+  return Number.parseInt(str, base);
 }
 
 /**
@@ -621,7 +621,8 @@ function getSumOfNumbers(x1, x2, x3) {
  */
 function getMaxNumber(firstNumber, secondNumber) {
   // throw new Error("Not implemented");
-  return firstNumber > secondNumber ? firstNumber : secondNumber;
+  // return firstNumber > secondNumber ? firstNumber : secondNumber;
+  return Math.max(firstNumber, secondNumber);
 }
 
 /**
