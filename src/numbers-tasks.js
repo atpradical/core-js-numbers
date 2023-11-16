@@ -438,7 +438,6 @@ function toPrecision(number, precision) {
  */
 function getNumberValue(number) {
   // throw new Error("Not implemented");
-  console.log(number.valueOf());
   return number.valueOf();
 }
 
