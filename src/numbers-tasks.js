@@ -622,6 +622,7 @@ function getSumOfNumbers(x1, x2, x3) {
 function getMaxNumber(firstNumber, secondNumber) {
   // throw new Error("Not implemented");
   // return firstNumber > secondNumber ? firstNumber : secondNumber;
+  // return Math.max(firstNumber, secondNumber);
   return Math.max(firstNumber, secondNumber);
 }
 
